@@ -1,3 +1,7 @@
+form_data = {
+    'input_name': {}
+}
+
 TYPE_ETHNIE = {
     "Congo": 1,
     "Mongolie": 2,
