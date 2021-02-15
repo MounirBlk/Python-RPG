@@ -35,8 +35,14 @@ Sexe:
 
 Niveau:
     1-15:
+        500exp
+        x1.5 > x1.2 > x1
         Guerrier > Voleur > Mage 
     15-35:
+        700exp
+        x1.5 > x1.2 > x1
         Voleur > Mage > Guerrier 
     35-50:
+        1000exp
+        x1.5 > x1.2 > x1
         Mage > Guerrier > Voleur

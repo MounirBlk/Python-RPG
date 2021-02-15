@@ -1,32 +1,21 @@
 Type de mob:
     - Farme: (50/100)
-        - Poule
-        - Vache
-        - Poisson
+        - Poule -> 1%exp | -50&1 level
+        - Vache -> 4%exp | -40&1 level
+        - Poisson -> 2%exp | -40&1 level
     - Elite: (40/100)
-        - Lion
-        - Zombie
-        - Griffon
+        - Lion -> 20%exp | -15&10 level
+        - Zombie -> 15%exp | -20&5 level
+        - Griffon -> 25%exp | -10&12 level
     - Boss: (9/100)
-        - Titan
-        - Dragon
-        - Anaconda
+        - Titan -> 80%exp | -5&15 level -> Excalibure
+        - Dragon -> 95%exp | -5&20 level -> Emeraude du chaos
+        - Anaconda -> 100%exp | -5&25 level -> Tri-Force
     - Big Boss:(1/100)
-        - Roi Mike # 1000
+        - Le Grand Roi Mike -> 0%exp | -5&5 level # 1000
 
-Caract.:
-    - Force (Guerrier > Voleur > Mage)
-    - Mana (Mage > Voleur > Guerrier)
-    - Defense (Guerrier > Mage > Voleur)
-    - Vitesse (Voleur > Mage > Guerrier)
-    - Vie (Mage > Guerrier > Voleur)
-    - Chance (Voleur > Guerrier > Mage)
-
-
-Sexe:
-    - Homme:
-        - Guerrier
-    - Femme:
-        - Voleur
-    - Trans:
-        - Mage
+Structure:
+    - Attaque
+    - Defense
+    - Vitesse ( Qui attaque en en premier)
+    - Vie ( Point de du mob)

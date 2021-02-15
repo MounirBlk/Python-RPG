@@ -3,14 +3,19 @@
 
 from math import floor
 from random import randint
-from utils import TYPE_ETHNIE
+from utils.const import TYPE_ETHNIE
 
 """ Class Personnage """
+class Personne():
+    def __init__(self):
+        self.email = ''
+        self.password = ''
 
-class Personnage():
+class Personnage(Personne):
 
     # Constructor
     def __init__(self, name, type_personnage, ethnie, sexe):
+        super().__init__()
         self.name = name # Nom
         self.type_personnage = type_personnage # - Guerrier => 1 - Voleur => 2 - Mage => 3
         self.ethnie = ethnie # "Congo": 1, "Mongolie": 2, "France": 3, "USA": 4, "Japon": 5, "Cote_Ivoire": 6, "Argentine": 7, "Haiti": 8, "Angleterre": 9
@@ -24,7 +29,7 @@ class Personnage():
         self.exp = 0
         self.level = 1
         self.stock = []
-        self.stuff = {
+        self.stuff = { # index du stock
             "Attaque":-1,
             "Defense":-1,
             "Vitesse":-1,
